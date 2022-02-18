@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Koho-Bold';
+    src: url('koho/KoHo-Bold.woff2') format('woff2'),
+        url('koho/KoHo-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koho-BoldItalic';
+    src: url('koho/KoHo-BoldItalic.woff2') format('woff2'),
+        url('koho/KoHo-BoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koho-Regular';
+    src: url('koho/KoHo-Regular.woff2') format('woff2'),
+        url('koho/KoHo-Regular.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoHo-ExtraLight';
+    src: url('koho/KoHo-ExtraLight.woff2') format('woff2'),
+        url('koho/KoHo-ExtraLight.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koho-Italic';
+    src: url('koho/KoHo-Italic.woff2') format('woff2'),
+        url('koho/KoHo-Italic.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoHo-Medium';
+    src: url('koho/KoHo-Medium.woff22') format('woff2'),
+        url('koho/KoHo-Medium.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoHo-Light';
+    src: url('koho/KoHo-Light.woff2') format('woff2'),
+        url('koho/KoHo-Light.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoHo-SemiBold';
+    src: url('koho/KoHo-SemiBold.woff2') format('woff2'),
+        url('koho/KoHo-SemiBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'KoHo-Bold';
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: 'KoHo-Medium';
+    text-align: center; 
+}
+
+.des {
+    font-size: 30px;
+    font-family: 'KoHo-Regular';
+    text-align: center;
+    padding: 50px;
+}
+
+.regular {
+    font-size: 55px;
+    font-family: 'KoHo-Regular';
+    padding-left: 20px;
+    text-align: center;
+    color: rgb(255, 20, 20);
+}
+
+#title {
+    color: rgb(255, 255, 255);
+}
+
+.bold {
+    font-size: 45px;
+    font-family: 'KoHo-Bold';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(26, 51, 190);
+}
+
+.boldi {
+    font-size: 40px;
+    font-family: 'KoHo-BoldItalic';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(33, 183, 221);
+}
+
+.sbold {
+    font-size: 35px;
+    font-family: 'KoHo-SemiBold';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(54, 225, 255);
+}
+
+.italic {
+    font-size: 40px;
+    font-family: 'KoHo-Italic';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(26, 190, 122);
+}
+
+.light {
+    font-size: 46px;
+    font-family: 'KoHo-Light';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(27, 219, 101);
+}
+
+.elight {
+    font-size: 48px;
+    font-family: 'KoHo-ExtraLight';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(30, 255, 41);
+}
+
+.medium {
+    font-size: 50px;
+    font-family: 'KoHo-Medium';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(236, 29, 209);
+}
+
+.obligue {
+    font-size: 50px;
+    font-family: 'KoHo-Medium';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(255, 129, 238);
+    font-style: oblique;
+}
+
+.glyphs {
+    font-size: 50px;
+    font-family: 'KoHo-Bold';
+    padding-left: 20px;
+    text-align: center; 
+    color: rgb(245, 27, 118);
+}
+
+img {
+    width: 1423px;
+    align-content: center;
+}
+
+
