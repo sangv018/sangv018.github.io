@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Zefani_Demo';
     src: url('Zefani_Demo-Regular.woff2') format('woff2'),
         url('Zefani_Demo-Regular.woff') format('woff');
@@ -24,4 +24,75 @@ body {
 
 h1 {
 
+} */
+
+@font-face {
+    font-family: 'Zefani';
+    src: url(assets/fonts/transfonter.org-zefani/Zefani_Demo-Regular.woff) format('woff'), url(assets/fonts/transfonter.org-belleza/Zefani_Demo-Regular.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Belleza';
+    src: url(assets/fonts/transfonter.org-belleza/Belleza-Regular.woff)format('woff'), url(assets/fonts/transfonter.org-belleza/Belleza-Regular.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acroteroin';
+    src: url(aassets/fonts/transfonter.org-acroteroin/AcroterionJF.woff)format('woff'), url(assets/fonts/transfonter.org-acroteroin/AcroterionJF.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kepler';
+    src: url(assets/fonts/transfonter.org-kepler/KeplerStd-BoldScnDisp.woff)format('woff'), url(assets/fonts/transfonter.org-kepler/KeplerStd-BoldScnDisp.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #2c2b30;
+    font-size: 30px;
+    color: white;
+    font-family: 'Kepler';
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Zefani';
+    text-align: center;
+    background-color: #e46a6b;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family:'Acroteroin';
+    text-align: center;
+    margin-top: -20px;
+    background-color: #e46a6b;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+a {
+    color: #dfdfdf;
+}
+
+.lab {
+    background-color: #df8575;
+    padding: 10px;
+    padding-left: 20px;
 }
