@@ -1,0 +1,26 @@
+body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    padding-bottom: 10px;
+}
+
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #98f59a; }
+    40%  { background: #B8CC33; }
+    60%  { background: #f3f03c; }
+    80%  { background: #ffdd45; }
+    100% { background: #f8a84d; }
+  }
+
+h1 {
+    font-size: 200px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#display {
+    font-size: 180px;
+    text-align: center;
+    font-family: monospace;
+}
