@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Koho-Bold';
+    src: url('koho/KoHo-Bold.woff2') format('woff2'),
+        url('koho/KoHo-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koho-Regular';
+    src: url('koho/KoHo-Regular.woff2') format('woff2'),
+        url('koho/KoHo-Regular.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media screen and (max-width: 768px)  {
+    body {
+    background-color: rgb(215, 255, 177);
+    }
+    div.question {
+        font-size: 15px;
+    color: rgb(216, 30, 30);
+    }
+    div.answer {
+        font-size: 12px;
+        color: rgb(18, 30, 199);
+    }
+    }
+
+
+body {
+    background-color: rgb(54, 52, 53);
+    color: rgb(95, 74, 231);
+}
+
+.question {
+    font-size: 20px;
+    color: rgb(46, 202, 32);
+    font-family:'Koho-Bold';
+}
+
+.answer {
+    font-size: 18px;
+    color: rgb(224, 20, 129);
+    font-family:'Koho-Regular';
+
+}
+
+#position {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#columns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    /* font-size: 30px; */
+    text-align: center;
+  }
